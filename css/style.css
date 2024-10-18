@@ -48,7 +48,7 @@ li>a:hover{
     transition: .4s;
 }
 .contact_btn{
-    background-color: #f9004d;
+    background-color: #f10606;
     color: black;
     margin-left: 8rem;
     padding: 10px 30px;
@@ -423,6 +423,51 @@ div.card{
 }
 
 /*<!---------- Contact section ----------->*/
+.form h1{
+    margin: 150px 0px 40px 0px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 80px;
+}
+.form h1 span{
+    color: red;
+}
+.form input,textarea{
+    width: 700px;
+    margin: 10px 400px;
+    padding: 15px;
+    background-color: #535151;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.form .form_btn{
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: #f9004d;
+    margin: 1.5rem 42rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px #f9004d;
+    cursor: pointer;
+    border: none;
+    transition: .3s ease;
+}
+.form .form_btn:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    color: white;
+}
+.footer{
+    color:black ;
+    margin-top: 20px;
+    background-color: #afaaaa;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+*::selection{
+    background-color: #f9004d;
+}
 
-
-/*<!-----responsive Contact section ------->*/
