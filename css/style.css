@@ -319,6 +319,123 @@ li>a:hover{
     }
 }
 
+
+/*<!---------- Education section ----------->*/
+
+/*.education-section{*/
+/*    background: #535151;*/
+/*    position: relative;*/
+/*    top: 100px;*/
+/*    display: flex;*/
+/*    margin-top: 100px;*/
+/*    align-content: center;*/
+/*    flex-direction: column;*/
+/*    height: 100vh;*/
+/*    !*padding: 8% 0 0 10%;*!*/
+/*    letter-spacing: normal;*/
+/*    width: 100%;*/
+/*    margin-bottom: 200px;*/
+/*}*/
+/*h1.education-title{*/
+/*    margin-top: 1rem ;*/
+/*    !*margin-left: 5rem;*!*/
+/*    color: white;*/
+/*    font-size: 50px;*/
+/*    !*margin: 1px;*!*/
+/*    !*padding-top: 100px;*!*/
+/*    text-align: center;*/
+/*}*/
+/*h1.education-title>span{*/
+/*    color: red;*/
+/*}*/
+
+/*.timeline {*/
+/*    position: relative;*/
+/*    padding-left: 50px;*/
+/*    width: 600px;*/
+/*    left: 25%;*/
+/*    top: 20%;*/
+/*}*/
+
+/*.timeline::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 25px;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    width: 2px;*/
+/*    background-color: #020202;*/
+/*}*/
+
+/*.timeline-item {*/
+/*    margin-bottom: 40px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.timeline-item:last-child {*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*.timeline-item::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: -40px;*/
+/*    top: 5px;*/
+/*    width: 12px;*/
+/*    height: 12px;*/
+/*    border-radius: 50%;*/
+/*    background-color: #f9004d;*/
+/*    border: 2px solid #ffffff;*/
+/*}*/
+
+
+/*.timeline-item h3 {*/
+/*    margin: 0;*/
+/*    font-size: 1.2rem;*/
+/*    color: #fff;*/
+/*    border-bottom: 2px solid #020202;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.timeline-item h3:hover{*/
+/*    color: #003244;*/
+
+/*}*/
+
+/*.timeline-item p {*/
+/*    margin: 10px 0 0;*/
+/*    font-size: 0.9rem;*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*.timeline-year {*/
+/*    position: absolute;*/
+/*    left: -90px;*/
+/*    top: 0;*/
+/*    font-size: 1.1rem;*/
+/*    color: #020202;*/
+/*}*/
+
+/*.timeline-year:hover{*/
+/*    font-size: 1.5rem;*/
+/*}*/
+
+/*.timeline-content {*/
+/*    padding: 15px;*/
+/*    background-color: rgba(255, 255, 255, 0.05);*/
+/*    border: 2px solid #020202;*/
+/*    border-radius: 8px;*/
+/*}*/
+
+/*.timeline-content:hover{*/
+/*    background-color: rgb(189, 24, 24);*/
+/*    color: #081b29;*/
+
+/*}*/
+
+
+
+
 /*<!---------- Service section ----------->*/
 
 .service{
@@ -471,3 +588,18 @@ div.card{
     background-color: #f9004d;
 }
 
+/*<!-----responsive Contact section ------->*/
+@media screen and (max-width: 820px){
+    .form>h1{
+        font-size: 35px;
+    }
+    .form input,textarea{
+        margin-left: 50px;
+        width: 450px;
+    }
+    .form .form_btn{
+        margin-left: 14rem;
+        padding: 10px 25px;
+        font-size: 18px;
+    }
+}
