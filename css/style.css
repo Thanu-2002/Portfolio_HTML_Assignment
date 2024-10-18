@@ -293,3 +293,28 @@ li>a:hover{
     border: 2px solid #f9004d;
     cursor:pointer;
 }
+
+/*<!----------responsive About section ----------->*/
+
+@media screen and (max-width: 820px){
+    .about{
+        display: block;
+        margin-top: -13rem;
+    }
+    .about_section{
+        margin-left: -6rem;
+        width: 450px;
+    }
+    .about_section>h1{
+        font-size: 35px;
+    }
+    .about_poto{
+        width: 200px;
+        height: 250px;
+        margin: 50px -70px;
+    }
+    .about_btn{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
