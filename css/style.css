@@ -321,6 +321,9 @@ li>a:hover{
 
 /*<!---------- Service section ----------->*/
 
+.service{
+    /*background: #020101;*/
+}
 h1.service_section{
     margin-top: 15rem;
     color: white;
@@ -418,3 +421,8 @@ div.card{
         padding: 8px 20px;
     }
 }
+
+/*<!---------- Contact section ----------->*/
+
+
+/*<!-----responsive Contact section ------->*/
