@@ -5,7 +5,7 @@
     font-family: "Josefin Sans", sans-serif;
 }
 body{
-    background-color: #191919;
+    background-color: #101010;
 }
 /*-----navigation section----------*/
 
@@ -318,3 +318,6 @@ li>a:hover{
         font-size: 18px;
     }
 }
+
+/*<!---------- Service section ----------->*/
+
