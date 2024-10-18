@@ -228,15 +228,17 @@ li>a:hover{
         margin-left: -4rem;
     }
     .description h1{
-        font-size: 18px;
+        font-size: 20px;
     }
     .description>h1>span{
         font-size: 40px;
     }
     .description>h2{
-        font-size: 18px;
+        font-size: 20px;
     }
     .description>p{
         font-size: 15px;
     }
 }
+
+/*<!---------- About section ----------->*/
