@@ -548,6 +548,66 @@ div.card{
 
 /*<!---------- portfolio section ----------->*/
 
+h1.portfolio_section{
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    padding-top: 80px;
+}
+h1.portfolio_section span{
+    color: #f9004d;
+}
+div.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+.port_card img{
+    transition: .4s ease-in-out;
+}
+.port_card img:hover{
+    transform: translateY(-20px) scale(1.1);
+}
+.port_card{
+    object-fit: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.port_card .content{
+    border-image: fill 0 linear-gradient(#0001,#f9004d);
+    position: relative;
+    bottom: 185px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.content h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.content p{
+    width: 350px;
+    font-size: 16px;
+}
+/*<!-----responsive portfolio section ----------->*/
+@media screen and (max-width: 820px){
+    h1.portfolio_section{
+        font-size: 35px;
+    }
+    .project{
+        grid-template-columns: 1fr;
+        margin-bottom: 200px;
+        flex-wrap: wrap;
+    }
+    .port_card{
+        margin-bottom: -170px;
+    }
+}
+
 
 /*<!---------- Contact section ----------->*/
 .form h1{
