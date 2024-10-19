@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: Arial, Hel sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #101010;
@@ -13,7 +15,7 @@ nav{
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     top: 0;
     width: 100%;
     color: white;
@@ -21,11 +23,12 @@ nav{
     overflow: hidden;
     padding: 10px;
     position: fixed;
+    z-index: 1000;
 }
 .nav_head{
-    color: red;
+    color: #f9004d;
     font-size: 35px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 span{
     color: white;
@@ -34,7 +37,7 @@ li{
     font-size: 16px;
     list-style-type: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 20px;
 }
 li>a{
     color: white;
@@ -44,16 +47,16 @@ li>a{
     text-transform: capitalize;
 }
 li>a:hover{
-    color: red;
+    color: #f9004d;
     transition: .4s;
 }
 .contact_btn{
-    background-color: #f10606;
-    color: black;
+    background-color: #f9004d;
+    color: #ffffff;
     margin-left: 8rem;
-    padding: 10px 30px;
+    padding: 10px 35px;
+    border-radius: 20px;
     font-size: large;
-    border-radius: 30px;
     cursor: pointer;
     transition: .5s ease-in-out;
 }
@@ -99,7 +102,7 @@ li>a:hover{
         height: 50vh;
         background-color: black;
         top: 50px;
-        right: -100%;
+        right: 100%;
         padding: 20px;
         transition: all .5s;
     }
@@ -113,6 +116,7 @@ li>a:hover{
     }
     nav .contact_btn{
         width: 90%;
+        margin-top: 15px;
     }
     nav li a{
         font-size: 20px;
@@ -120,6 +124,9 @@ li>a:hover{
     }
     .checkbox:checked ~ ul{
         right: 0;
+        height: 450px;
+        width: 360px;
+        background-color: rgba(5, 5, 5, 0.7);
     }
 }
 
@@ -538,6 +545,9 @@ div.card{
         padding: 8px 20px;
     }
 }
+
+/*<!---------- portfolio section ----------->*/
+
 
 /*<!---------- Contact section ----------->*/
 .form h1{
